@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@import "../styles/theme-dark.css";
+
+@import "../styles/theme-light.css";
+
+@import "../styles/theme-common.css";
+
+html {
+    height: 100dvh;
+    width: 100dvw;
+}
+
+body {
+    background-color: var(--color-background, #ffffff);
+    color: var(--color-text, #1a1a1a);
+    height: 100%;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+    width: 100%;
+}
+
+html,
+body {
+    touch-action: manipulation;
+}

@@ -1,0 +1,14 @@
+name: boilerplate_frontend_ssr_development
+
+services:
+    app:
+        build:
+            context: ..
+            dockerfile: ops/Dockerfile.development
+        container_name: boilerplate_frontend_ssr_development
+        env_file:
+            - ../envs/.env.development
+        image: boilerplate_frontend_ssr:development-0.0.3
+        ports:
+            - "${PORT:-38500}:${PORT:-38500}"
+        restart: unless-stopped

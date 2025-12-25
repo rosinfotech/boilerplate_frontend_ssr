@@ -1,0 +1,16 @@
+name: boilerplate_frontend_ssr_local
+
+services:
+    app:
+        build:
+            args:
+                PORT: ${PORT:-38500}
+            context: ..
+            dockerfile: ops/Dockerfile.local
+        container_name: boilerplate_frontend_ssr_local-
+        env_file:
+            - ../envs/.env.local
+        image: boilerplate_frontend_ssr:local-0.0.3
+        ports:
+            - "${PORT:-38500}:${PORT:-38500}"
+        restart: unless-stopped

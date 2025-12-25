@@ -1,0 +1,8 @@
+.git
+.gitignore
+.next
+.vscode
+node_modules
+npm-debug.log
+ops
+README.md
