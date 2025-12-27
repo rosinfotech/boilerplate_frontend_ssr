@@ -1,16 +1,13 @@
-import type { ReactNode } from "react";
-import { AntdRegistry } from "@ant-design/nextjs-registry";
 import "./globals.css";
+import type { PropsWithChildren } from "react";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
+import { LayoutContent } from "@/layouts/LayoutContent";
 import { metadata as appMetadata } from "./metadata/constants";
 
 
 export const metadata = appMetadata;
 
-interface IRootLayoutProps {
-    children: ReactNode;
-}
-
-const RootLayout = (props: Readonly<IRootLayoutProps>) => {
+const RootLayout = (props: Readonly<PropsWithChildren>) => {
     const { children } = props;
 
     return (
@@ -20,14 +17,7 @@ const RootLayout = (props: Readonly<IRootLayoutProps>) => {
             </head>
             <body>
                 <AntdRegistry>
-                    <main className="flex flex-col justify-center items-center bg-linear-to-br from-purple-600 to-purple-900 p-8 min-h-screen">
-                        <div className="w-full max-w-6xl text-center">
-                            <h1 className="mb-6 font-mont font-bold text-white text-6xl">
-                                Rosinfotech Boilerplate Frontend SSR
-                            </h1>
-                            {children}
-                        </div>
-                    </main>
+                    <LayoutContent>{children}</LayoutContent>
                 </AntdRegistry>
             </body>
         </html>

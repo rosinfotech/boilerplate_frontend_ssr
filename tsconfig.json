@@ -10,11 +10,7 @@
         "moduleResolution": "bundler",
         "noEmit": true,
         "paths": {
-            "@/*": ["./src/*"],
-            "@/components/*": ["./src/components/*"],
-            "@/lib/*": ["./src/lib/*"],
-            "@/styles/*": ["./src/styles/*"],
-            "@/types/*": ["./src/types/*"]
+            "@/*": ["./src/*"]
         },
         "plugins": [
             {
@@ -27,5 +23,11 @@
         "target": "ES2020"
     },
     "exclude": ["node_modules"],
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+        ".next/types/**/*.ts",
+        "next-env.d.ts",
+        ".next.mobile/types/**/*.ts"
+    ]
 }

@@ -9,6 +9,7 @@
 
 # Next.js
 /.next/
+/.next.mobile/
 /out/
 
 # Production
@@ -26,17 +27,20 @@ yarn-error.log*
 
 # Local env files
 envs/.env
-envs/.env.local
 envs/.env.development
 envs/.env.development.local
-envs/.env.test
-envs/.env.test.local
+envs/.env.development.mobile
+envs/.env.local
+envs/.env.local.mobile
 envs/.env.production
 envs/.env.production.local
+envs/.env.production.mobile
+envs/.env.test
+envs/.env.test.local
 .env*.local
 .env.development.local
-.env.test.local
 .env.production.local
+.env.test.local
 
 # Vercel
 .vercel
@@ -58,3 +62,7 @@ next-env.d.ts
 
 # OS
 Thumbs.db
+
+# Capacitor
+/android/
+/ios/

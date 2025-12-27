@@ -1,0 +1,1 @@
+export { LayoutContentMobile } from "./LayoutContentMobile";

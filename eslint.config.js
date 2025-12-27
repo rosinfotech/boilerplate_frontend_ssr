@@ -13,10 +13,13 @@ export default [
         ignores: [
             "**/*.min.js",
             "**/.vscode/",
+            "**/android/",
             "**/build/",
             "**/coverage/",
             "**/dist/",
+            "**/ios/",
             "**/.next/",
+            "**/.next.mobile/",
             "**/node_modules/",
             "**/next-env.d.ts",
         ],
@@ -66,6 +69,13 @@ export default [
             ...(javascriptConfig.settings || {}),
             ...(importConfig.settings || {}),
             ...(typescriptConfig.settings || {}),
+        },
+    },
+
+    {
+        files: ["**/layout*.tsx", "**/page*.tsx"],
+        rules: {
+            "react-refresh/only-export-components": "off",
         },
     },
 

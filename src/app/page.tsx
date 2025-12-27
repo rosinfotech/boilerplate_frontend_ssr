@@ -1,13 +1,56 @@
-import { Button } from "antd";
-import Link from "next/link";
+import type { FC } from "react";
 
 
-const IndexPage = () => {
+const PageIndex: FC = () => {
     return (
-        <Link href="/next-page">
-            <Button type="primary">Go to NextPage</Button>
-        </Link>
+        <>
+            <h1>Page Index</h1>
+            <p>
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex PageIndex
+                PageIndex PageIndex PageIndex PageIndex PageIndex
+            </p>
+        </>
     );
 };
 
-export default IndexPage;
+export default PageIndex;

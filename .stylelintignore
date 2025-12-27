@@ -1,0 +1,7 @@
+android/
+ios/
+.next/
+.next.mobile/
+node_modules/
+dist/
+build/
