@@ -1,7 +1,7 @@
 {
     "name": "@rosinfo.tech/boilerplate_frontend_ssr",
     "description": "Rosinfotech Boilerplate Frontend SSR",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": "rosinfo.tech",
     "license": "UNLICENSED",
     "scripts": {

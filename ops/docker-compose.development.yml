@@ -8,7 +8,7 @@ services:
         container_name: boilerplate_frontend_ssr_development
         env_file:
             - ../envs/.env.development
-        image: boilerplate_frontend_ssr:development-0.0.4
+        image: boilerplate_frontend_ssr:development-0.0.5
         ports:
             - "${PORT:-38500}:${PORT:-38500}"
         restart: unless-stopped

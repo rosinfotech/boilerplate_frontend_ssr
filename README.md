@@ -37,21 +37,19 @@
 
 ### Development
 
-- Development:
+- Web:
 
-  - Web:
+  - `npm run dev`
 
-    - `npm run dev`
+- Mobile:
 
-  - Mobile:
+  - Terminal 1: `npm run dev:mobile`;
 
-    - Terminal 1: `npm run dev:mobile`;
+  - Terminal 2:
 
-    - Terminal 2:
+    - `npm run build:mobile:ios` and `npm run dev:mobile:ios`;
 
-      - `npm run build:mobile:ios` and `npm run dev:mobile:ios`;
-
-      - or `npm run build:mobile:android` and `npm run dev:mobile:android`;
+    - or `npm run build:mobile:android` and `npm run dev:mobile:android`;
 
 ### Building
 
@@ -120,3 +118,7 @@
         }
     }
     ```
+
+## Other
+
+- Command `make clear` removes all development artifacts directories;

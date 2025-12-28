@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.0.5] - 2025-12-28
+
+### Added
+
+- `make clear` command;
+
 ## [0.0.4] - 2025-12-27
 
 ### Added
